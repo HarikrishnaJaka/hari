@@ -10,4 +10,9 @@ public class Hari {
 	public String wish() {
 		 return "hello boss how areyou...........!";
 	}
+	
+	@GetMapping("/greet")
+	public String greet() {
+		 return "hello boss good evening...........!";
+	}
 }
