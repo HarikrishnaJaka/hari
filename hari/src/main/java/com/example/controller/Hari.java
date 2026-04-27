@@ -13,6 +13,6 @@ public class Hari {
 	
 	@GetMapping("/greet")
 	public String greet() {
-		 return "hello boss good evening...........!";
+		 return "hello boss good evening";
 	}
 }
